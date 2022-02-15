@@ -31,11 +31,10 @@ body {
 }
 
 header img {
-    height: 124px;
-    width: 124px;
+    height: 188px;
+    width: 168px;
     border-radius: 50%;
     margin-bottom: 32px;    
-
     transition: transform .2s;
     position: relative;
 }
@@ -48,7 +47,7 @@ header img:hover {
 header p {
     font-size: 120%;
     color: #c5c2da;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 
@@ -113,11 +112,11 @@ section ul span:hover{
 }
 
 section ul h2:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 section ul li:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 section ul li {
@@ -153,14 +152,14 @@ span {
 
 span.new {
     position: absolute;
-    top: -0.5rem;
+    top: -0.6rem;
     right: 0.5rem;
     border-radius: .2rem;
     background-color: white;
     z-index: 1;
-    padding: .2rem 1rem;
+    padding: .1rem 1rem;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 900;
     color: black;
 }
 
